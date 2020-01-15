@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/sf_Ubuntu16.04_share/compiler_cminus/common/common.c
+common.h
+/media/sf_Ubuntu16.04_share/compiler_cminus/common/common.h
+dirent.h
+/media/sf_Ubuntu16.04_share/compiler_cminus/common/dirent.h
+stdio.h
+/media/sf_Ubuntu16.04_share/compiler_cminus/common/stdio.h
+string.h
+/media/sf_Ubuntu16.04_share/compiler_cminus/common/string.h
+
+/media/sf_Ubuntu16.04_share/compiler_cminus/common/common.h
+

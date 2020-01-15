@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//common/common.h
+
+..//lab1_lexical_analyzer/lexical_analyzer.h
+stdio.h
+-
+
+/media/sf_Ubuntu16.04_share/compiler_cminus/build/lab1_lexical_analyzer/lex.yy.c
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+inttypes.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+lab1_lexical_analyzer/lexical_analyzer.h
+/media/sf_Ubuntu16.04_share/compiler_cminus/build/lab1_lexical_analyzer/lab1_lexical_analyzer/lexical_analyzer.h
+common/common.h
+/media/sf_Ubuntu16.04_share/compiler_cminus/build/lab1_lexical_analyzer/common/common.h
+syntax_analyzer.h
+/media/sf_Ubuntu16.04_share/compiler_cminus/build/lab1_lexical_analyzer/syntax_analyzer.h
+unistd.h
+-
+
+/media/sf_Ubuntu16.04_share/compiler_cminus/build/lab1_lexical_analyzer/syntax_analyzer.h
+
+/media/sf_Ubuntu16.04_share/compiler_cminus/lab1_lexical_analyzer/test_lex.c
+
